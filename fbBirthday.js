@@ -7,20 +7,6 @@ var access_token = "";
 
 graph.setAccessToken(access_token);
 
-// var job = new CronJob({
-// 	cronTime: '0 0 14 * * *',
-// 	onTick: function() {
-
-//      * Runs every day
-//      * at 14:00:00.
-
-//      getAllFriends();
-//  },
-//  start: false,
-//  timeZone: 'Asia/Kolkata'
-// });
-
-
 var fbBirthday = {
 
 	getAllFriends: function() {
